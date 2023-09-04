@@ -14,6 +14,8 @@
 		9113457C2A2E9DD7002AA99D /* DelegationDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9113457A2A2E9DD7002AA99D /* DelegationDemo.xcdatamodeld */; };
 		9113457E2A2E9DDA002AA99D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9113457D2A2E9DDA002AA99D /* Assets.xcassets */; };
 		911345812A2E9DDA002AA99D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9113457F2A2E9DDA002AA99D /* LaunchScreen.storyboard */; };
+		911345892A2EA2C3002AA99D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911345882A2EA2C3002AA99D /* SecondViewController.swift */; };
+		9113458B2A2F72C3002AA99D /* myProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9113458A2A2F72C3002AA99D /* myProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9113457D2A2E9DDA002AA99D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		911345802A2E9DDA002AA99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		911345822A2E9DDA002AA99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911345882A2EA2C3002AA99D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9113458A2A2F72C3002AA99D /* myProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				9113457F2A2E9DDA002AA99D /* LaunchScreen.storyboard */,
 				911345822A2E9DDA002AA99D /* Info.plist */,
 				9113457A2A2E9DD7002AA99D /* DelegationDemo.xcdatamodeld */,
+				911345882A2EA2C3002AA99D /* SecondViewController.swift */,
+				9113458A2A2F72C3002AA99D /* myProtocol.swift */,
 			);
 			path = DelegationDemo;
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9113457C2A2E9DD7002AA99D /* DelegationDemo.xcdatamodeld in Sources */,
+				9113458B2A2F72C3002AA99D /* myProtocol.swift in Sources */,
 				911345762A2E9DD7002AA99D /* ViewController.swift in Sources */,
 				911345722A2E9DD7002AA99D /* AppDelegate.swift in Sources */,
+				911345892A2EA2C3002AA99D /* SecondViewController.swift in Sources */,
 				911345742A2E9DD7002AA99D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
